@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Sitcod3 Lab — Renaissance of Code. Autonomous agents with semantic cognition.",
   "private": true,
+  "type": "module",
   "scripts": {
     "install:all": "cd backend && npm install && cd ../frontend && npm install",
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
