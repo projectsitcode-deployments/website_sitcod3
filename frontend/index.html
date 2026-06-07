@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitcod3 Lab — A research laboratory forging autonomous agents with semantic cognition, MCP-native integration, and DevSecOps orchestration.">
+    <meta name="author" content="Sitcod3 Lab">
+    <meta property="og:title" content="Sitcod3 Lab — Renaissance of Code">
+    <meta property="og:description" content="Autonomous agents with semantic cognition and MCP-native integration.">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#09090B">
+    
+    <title>Sitcod3 Lab — Renaissance of Code</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-300-normal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-400-normal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-500-normal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-600-normal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-700-normal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/jetbrains-mono@latest/latin-400-normal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/jetbrains-mono@latest/latin-500-normal.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect rx='20' width='100' height='100' fill='%23E8B57E'/><text x='50' y='68' font-size='50' text-anchor='middle' fill='%2309090B' font-weight='700'>S3</text></svg>">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="content-wrapper">
+        <!-- Navigation -->
+        <nav class="nav" id="mainNav">
+            <div class="nav-logo">
+                <div class="nav-logo-mark">S3</div>
+                <div class="nav-logo-name">Sitcod3 <span>Lab</span></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#projects" class="active">Projects</a></li>
+                <li><a href="#architecture">Architecture</a></li>
+                <li><a href="#codex">Codex</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn btn-ghost">Sign In</button>
+                <button class="btn btn-primary">Get Access</button>
+            </div>
+            <!-- Mobile menu button -->
+            <button class="nav-mobile-btn" id="mobileMenuBtn" aria-label="Menu">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-geometry">
+                <svg viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="300" cy="300" r="250" stroke="rgba(232,181,126,0.06)" stroke-width="0.5"/>
+                    <circle cx="300" cy="300" r="200" stroke="rgba(232,181,126,0.04)" stroke-width="0.5"/>
+                    <circle cx="300" cy="300" r="150" stroke="rgba(232,181,126,0.03)" stroke-width="0.5"/>
+                    <rect x="120" y="120" width="360" height="360" stroke="rgba(232,181,126,0.04)" stroke-width="0.5" transform="rotate(45 300 300)"/>
+                    <rect x="150" y="150" width="300" height="300" stroke="rgba(232,181,126,0.03)" stroke-width="0.5"/>
+                    <line x1="300" y1="50" x2="300" y2="550" stroke="rgba(232,181,126,0.03)" stroke-width="0.5"/>
+                    <line x1="50" y1="300" x2="550" y2="300" stroke="rgba(232,181,126,0.03)" stroke-width="0.5"/>
+                    <circle cx="300" cy="300" r="4" fill="rgba(232,181,126,0.15)"/>
+                </svg>
+            </div>
+
+            <div class="hero-content">
+                <div class="hero-pill">
+                    <span class="hero-pill-badge">New</span>
+                    <span>Caliper_A1-Construct is now in Genesis phase</span>
+                    <span style="color: var(--text-muted)">→</span>
+                </div>
+
+                <h1 class="hero-title">
+                    <span class="hero-title-gradient">Sitcod3 Lab</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Where the art of code meets the science of intelligence.
+                </p>
+                <p class="hero-desc">
+                    A research laboratory forging autonomous agents with semantic cognition, 
+                    MCP-native integration, and DevSecOps orchestration.
+                </p>
+
+                <div class="hero-cta">
+                    <button class="btn btn-primary btn-lg">
+                        Explore Projects
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M6 12l4-4-4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                    <button class="btn btn-secondary btn-lg">Read the Codex</button>
+                </div>
+            </div>
+
+            <!-- Terminal -->
+            <div class="terminal-wrapper">
+                <div class="terminal">
+                    <div class="terminal-bar">
+                        <div class="terminal-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <div class="terminal-tab">~/sitcod3-lab — agent-caliper</div>
+                    </div>
+                    <div class="terminal-content">
+                        <div class="t-line">
+                            <span class="t-prompt">❯ </span>
+                            <span class="t-command">sitcod3 init --agent caliper_a1</span>
+                        </div>
+                        <div class="t-line">
+                            <span class="t-output">⟡ Loading semantic memory cores...</span>
+                        </div>
+                        <div class="t-line">
+                            <span class="t-output">⟡ Connecting MCP tool spectrum [47 tools]...</span>
+                        </div>
+                        <div class="t-line">
+                            <span class="t-success">✓ Global memory fetcher online</span>
+                        </div>
+                        <div class="t-line">
+                            <span class="t-success">✓ DevSecOps orchestrator initialized</span>
+                        </div>
+                        <div class="t-line">
+                            <span class="t-success">✓ Agent Caliper_A1 ready — awaiting cognition<span class="t-cursor"></span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"><div class="section-divider-line"></div></div>
+
+        <!-- Projects Section -->
+        <section class="projects-section" id="projects">
+            <div class="section-header reveal">
+                <div class="section-eyebrow">Laboratory Constructs</div>
+                <h2 class="section-heading">Projects & Agents</h2>
+                <p class="section-subheading">Autonomous systems born from the intersection of art and engineering</p>
+            </div>
+
+            <!-- Main Project Card -->
+            <div class="project-main reveal">
+                <div class="project-status">
+                    <span class="status-dot"></span>
+                    Active — Genesis Phase
+                </div>
+                <h3 class="project-title">Agent Caliper_A1-Construct</h3>
+                <div class="project-codename">codename: "Newborn Semantic Oracle"</div>
+                <p class="project-description">
+                    A newborn semantic-capable global memory fetcher that transcends traditional retrieval systems. 
+                    Caliper_A1 measures, indexes, and retrieves knowledge across the entire semantic spectrum — 
+                    understanding context, intent, and relational meaning. Built as an MCP-native agent with full 
+                    spectrum/scope of integrational capabilities and comprehensive MCP tools utilization, operating 
+                    as a local DevSecOps Orchestrator that automates security pipelines, deployment workflows, 
+                    and infrastructure management.
+                </p>
+
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon amber">🧠</div>
+                        <div class="feature-name">Semantic Memory Engine</div>
+                        <div class="feature-text">Global memory fetcher with contextual understanding. Connects concepts across vast knowledge graphs.</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon violet">🔗</div>
+                        <div class="feature-name">MCP Full Spectrum</div>
+                        <div class="feature-text">Complete Model Context Protocol integration. Every tool, every capability, natively orchestrated.</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon emerald">🛡️</div>
+                        <div class="feature-name">DevSecOps Orchestrator</div>
+                        <div class="feature-text">Local-first security orchestration. Automated CI/CD, vulnerability scanning, and zero-trust deploy.</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon rose">🌐</div>
+                        <div class="feature-name">Global Fetch Protocol</div>
+                        <div class="feature-text">Distributed memory retrieval across federated sources with real-time sync and conflict resolution.</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon amber">⚙️</div>
+                        <div class="feature-name">MCP Tool Maestro</div>
+                        <div class="feature-text">Dynamic tool composition and chaining. Automatically selects and sequences tools based on task analysis.</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon violet">🔬</div>
+                        <div class="feature-name">Self-Evolving Construct</div>
+                        <div class="feature-text">Newborn architecture that learns and adapts. Expands semantic vocabulary through continuous interaction.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Module Cards -->
+            <div class="modules-grid">
+                <div class="module-card reveal reveal-delay-1">
+                    <div class="module-number">MODULE II</div>
+                    <h4 class="module-title">Semantic Cognition Layer</h4>
+                    <p class="module-desc">The neural substrate of Caliper_A1. Processes natural language queries through multi-dimensional semantic space, understanding nuance, metaphor, and implicit relationships.</p>
+                    <div class="module-tags">
+                        <span class="tag">NLP</span>
+                        <span class="tag">Knowledge Graph</span>
+                        <span class="tag">Embeddings</span>
+                        <span class="tag">RAG</span>
+                    </div>
+                </div>
+                <div class="module-card reveal reveal-delay-2">
+                    <div class="module-number">MODULE III</div>
+                    <h4 class="module-title">MCP Integration Matrix</h4>
+                    <p class="module-desc">Full-spectrum MCP tool orchestration engine. Maps every available Model Context Protocol tool into a unified operational matrix for seamless agent-driven automation.</p>
+                    <div class="module-tags">
+                        <span class="tag">MCP</span>
+                        <span class="tag">Tool Registry</span>
+                        <span class="tag">API Mesh</span>
+                        <span class="tag">Protocol</span>
+                    </div>
+                </div>
+                <div class="module-card reveal reveal-delay-2">
+                    <div class="module-number">MODULE IV</div>
+                    <h4 class="module-title">DevSecOps Automata</h4>
+                    <p class="module-desc">Local-first orchestration layer for continuous security. Integrates SAST, DAST, container scanning, and compliance validation into autonomous deployment pipelines.</p>
+                    <div class="module-tags">
+                        <span class="tag">CI/CD</span>
+                        <span class="tag">SAST/DAST</span>
+                        <span class="tag">Zero-Trust</span>
+                        <span class="tag">K8s</span>
+                    </div>
+                </div>
+                <div class="module-card reveal reveal-delay-3">
+                    <div class="module-number">MODULE V</div>
+                    <h4 class="module-title">Global Memory Fabric</h4>
+                    <p class="module-desc">Distributed semantic memory network. Federated knowledge storage with vector similarity search, temporal versioning, and cross-source correlation capabilities.</p>
+                    <div class="module-tags">
+                        <span class="tag">Vector DB</span>
+                        <span class="tag">Federation</span>
+                        <span class="tag">CRDT</span>
+                        <span class="tag">Sync</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"><div class="section-divider-line"></div></div>
+
+        <!-- Architecture Section -->
+        <section class="arch-section" id="architecture">
+            <div class="section-header reveal">
+                <div class="section-eyebrow">Blueprint</div>
+                <h2 class="section-heading">Anatomy of Intelligence</h2>
+                <p class="section-subheading">Deconstructing Caliper_A1 into its fundamental systems</p>
+            </div>
+
+            <div class="arch-layout reveal">
+                <div class="arch-info">
+                    <h3 class="arch-heading">Layered Architecture</h3>
+                    <p class="arch-text">
+                        Like da Vinci's anatomical studies revealing the mechanics of the human form, 
+                        we deconstruct Caliper_A1 into purpose-built layers — each designed for semantic 
+                        cognition and autonomous operation.
+                    </p>
+                    <div class="arch-layers">
+                        <div class="arch-layer">
+                            <div class="layer-indicator">◇</div>
+                            <div class="layer-content">
+                                <h4>Perception Layer</h4>
+                                <p>Semantic input processing — natural language, code, structured data with contextual tagging</p>
+                            </div>
+                        </div>
+                        <div class="arch-layer">
+                            <div class="layer-indicator">◈</div>
+                            <div class="layer-content">
+                                <h4>Cognition Core</h4>
+                                <p>Multi-model reasoning with chain-of-thought planning, tool selection, and task decomposition</p>
+                            </div>
+                        </div>
+                        <div class="arch-layer">
+                            <div class="layer-indicator">◆</div>
+                            <div class="layer-content">
+                                <h4>Memory Substrate</h4>
+                                <p>Persistent semantic memory — vector-indexed, temporally-aware, relationally-linked</p>
+                            </div>
+                        </div>
+                        <div class="arch-layer">
+                            <div class="layer-indicator">▣</div>
+                            <div class="layer-content">
+                                <h4>Action Matrix (MCP)</h4>
+                                <p>Full-spectrum tool execution — compose, chain, orchestrate with autonomous decisions</p>
+                            </div>
+                        </div>
+                        <div class="arch-layer">
+                            <div class="layer-indicator">⬡</div>
+                            <div class="layer-content">
+                                <h4>Security Orchestrator</h4>
+                                <p>DevSecOps automation — continuous scanning, policy enforcement, secure deployment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="code-block">
+                    <div class="code-header">
+                        <span class="code-header-dot c1"></span>
+                        <span class="code-header-dot c2"></span>
+                        <span class="code-header-dot c3"></span>
+                        <span class="code-header-title">caliper.config.ts</span>
+                    </div>
+                    <div class="code-body">
+<span class="ck">// ═══ Caliper_A1 Architecture ═══</span><br>
+<span class="ck">// Sitcod3 Lab — Codex Entry I</span><br><br>
+<span class="kw">const</span> <span class="var">caliper</span> = {<br>
+&nbsp;&nbsp;<span class="prop">identity</span>: <span class="str">"Agent Caliper_A1-Construct"</span>,<br>
+&nbsp;&nbsp;<span class="prop">origin</span>: <span class="str">"Sitcod3 Laboratory"</span>,<br>
+&nbsp;&nbsp;<span class="prop">phase</span>: <span class="str">"Genesis — Newborn"</span>,<br><br>
+&nbsp;&nbsp;<span class="ck">// Semantic Capabilities</span><br>
+&nbsp;&nbsp;<span class="prop">cognition</span>: {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="prop">type</span>: <span class="str">"semantic-global-fetcher"</span>,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="prop">memory</span>: <span class="str">"distributed-vector-fabric"</span>,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="prop">scope</span>: <span class="str">"universal-knowledge-graph"</span>,<br>
+&nbsp;&nbsp;},<br><br>
+&nbsp;&nbsp;<span class="ck">// MCP Integration</span><br>
+&nbsp;&nbsp;<span class="prop">mcp</span>: {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="prop">spectrum</span>: <span class="str">"full"</span>,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="prop">tools</span>: <span class="num">47</span>,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="prop">composability</span>: <span class="kw">true</span>,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="prop">autonomy</span>: <span class="str">"agentic-loop"</span>,<br>
+&nbsp;&nbsp;},<br><br>
+&nbsp;&nbsp;<span class="ck">// DevSecOps Orchestration</span><br>
+&nbsp;&nbsp;<span class="prop">devsecops</span>: {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="prop">mode</span>: <span class="str">"local-first"</span>,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="prop">pipelines</span>: [<span class="str">"SAST"</span>, <span class="str">"DAST"</span>, <span class="str">"SCA"</span>],<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="prop">deploy</span>: <span class="str">"zero-trust-automated"</span>,<br>
+&nbsp;&nbsp;}<br>
+};<br><br>
+<span class="kw">export default</span> <span class="var">caliper</span>;
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats -->
+            <div class="stats-row reveal">
+                <div class="stat-card">
+                    <div class="stat-value">47</div>
+                    <div class="stat-name">MCP Tools Integrated</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">∞</div>
+                    <div class="stat-name">Semantic Scope</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">24/7</div>
+                    <div class="stat-name">Autonomous Operation</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">0-Day</div>
+                    <div class="stat-name">Security Posture</div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"><div class="section-divider-line"></div></div>
+
+        <!-- CTA Section -->
+        <section class="cta-section" id="codex">
+            <div class="cta-card reveal">
+                <h2 class="cta-heading">Ready to build with intelligence?</h2>
+                <p class="cta-text">
+                    Install Caliper_A1 and experience autonomous semantic orchestration. 
+                    The renaissance of code starts here.
+                </p>
+                <div class="cta-actions">
+                    <button class="btn btn-primary btn-lg">
+                        Get Started
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                    <button class="btn btn-secondary btn-lg">Documentation</button>
+                </div>
+                <div class="cta-install">
+                    <code>npx sitcod3-lab init --project caliper-a1</code>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="site-footer" id="about">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand-title">Sitcod3 Lab</div>
+                    <p class="footer-brand-desc">
+                        A research laboratory dedicated to the art and science of autonomous intelligent agents. 
+                        Precision meets intelligence.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <div class="footer-col-label">Projects</div>
+                    <a href="#">Caliper_A1</a>
+                    <a href="#">Semantic Core</a>
+                    <a href="#">MCP Matrix</a>
+                    <a href="#">DevSecOps</a>
+                </div>
+                <div class="footer-col">
+                    <div class="footer-col-label">Resources</div>
+                    <a href="#">Documentation</a>
+                    <a href="#">API Reference</a>
+                    <a href="#">Architecture</a>
+                    <a href="#">Changelog</a>
+                </div>
+                <div class="footer-col">
+                    <div class="footer-col-label">Lab</div>
+                    <a href="#">About</a>
+                    <a href="#">Research</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bar">
+                <span class="footer-copy">© 2025 Sitcod3 Lab</span>
+                <span class="footer-attribution">"Simplicity is the ultimate sophistication." — L. da Vinci</span>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "sitcod3-lab-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Sitcod3 Lab",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.10"
+  },
+  "author": "Sitcod3 Lab",
+  "license": "MIT"
+}
